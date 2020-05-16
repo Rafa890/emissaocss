@@ -1,46 +1,111 @@
-<html >
+<html lang="en">
   <head>
   <title>Rafa890</title> 
-    <meta charset="iso-8859-15">
+    <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css"> 
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
 <header>
-  <nav class="menu">
-    <ul>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Portfólio</a></li>
-      <li><a href="#">Contato</a></li>
+  <nav class="menu nav">
+    <ul class="container">
+      <li><a href="#about">About</a></li>
+      <li><a href="#select">Select</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
   <div>
-  <h1 class="site-title">Rafael 890</h1>
-  <h2 class="site-subtitle">web developer</h2>
+  <h1 class="site-title" id="dd" data-text="Rafael 890">Rafael 890</h1>
+  <h3 class="site-title" id="dd2">Rafael 890</h3>
+  <h2 class="site-subtitle">Web Developer</h2>
   </div>
 </header>
-<section class="port">
-		<h2>&lt;Portfólio&gt;</h2>
+
+<section class="sobre section" id="about">
+<div class="container">
+<h2>&lt;About&gt;</h2>
+<figure class="avatar">
+<img src="https://i.pinimg.com/originals/4f/11/18/4f1118edfc65e71573685920671e2173.jpg" alt="">
+</figure>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis porta dui ac hendrerit. Donec nec orci in tellus ultricies venenatis sed tristique urna. Nunc porta turpis eget hendrerit vestibulum. In bibendum molestie neque ut viverra. Nullam tristique felis massa, vitae congue nisi venenatis vitae. Proin lacinia erat lectus, at gravida odio euismod ac. Praesent posuere dictum maximus. Morbi scelerisque ex nec purus sagittis efficitur. Phasellus massa nulla, sagittis vitae bibendum id, sodales a lectus. Integer vitae ornare nulla, ac viverra urna.</p>
+<p>Morbi commodo hendrerit lectus, quis lacinia justo semper non. Etiam posuere mauris nec massa mattis volutpat. Duis sit amet ex bibendum, posuere mi at, pharetra orci. Curabitur sagittis scelerisque felis vitae mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent rutrum felis eget lectus posuere, sit amet pulvinar dolor ultrices. Proin magna turpis, convallis ac felis et, semper tempus enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eget varius orci. Suspendisse sed accumsan
+eros, quis ultricies lectus. Morbi in blandit velit. Nulla facilisi. Vestibulum vestibulum ornare mi, non fringilla enim. Donec tempus, tellus efficitur euismod consequat, dui orci blandit sem, ut pharetra mauris turpis non tellus.
+</p>
+<p>
+        Este site foi construido durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersao CSS da Alura</a>
+      </p>
+	  </div>
+</section>
+
+<section class="port section" id="select">
+<div class="container">
+		<h2>&lt;Select&gt;</h2>
 		<div class="grid">
-		<figure>
-			<img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/flower.JPG" alt="eCommerce">
-			<figcaption>eCommerce</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/toriel.JPG" alt=">Mobile">
-			<figcaption>Mobile</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/papyrus.JPG" alt="Web design">
-			<figcaption>Web design</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/undyne.JPG" alt="Projetos pessoais">
-			<figcaption>Projetos pessoais</figcaption>
-		</figure>
+		<div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/flower.JPG" alt="Caelum">
+            </figure>
+            <div class="card-back">
+              <h4>Flower</h4>
+            </div>
+          </div>
+        </div>
+		<div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/toriel.JPG" alt="Caelum">
+            </figure>
+            <div class="card-back">
+              <h4>Toriel</h4>
+            </div>
+          </div>
+        </div><div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/papyrus.JPG" alt="Caelum">
+            </figure>
+            <div class="card-back">
+              <h4>Papyrus</h4>
+            </div>
+          </div>
+        </div>
+		<div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="https://raw.githubusercontent.com/Rafa890/emissaocss/master/img/undyne.JPG" alt="Caelum">
+            </figure>
+            <div class="card-back">
+              <h4>Undyne</h4>
+            </div>
+          </div>
+        </div>
+		</div>
 		</div>
 	</section>
+	
+<section class="Contato section" id="contact">
+<div class="container">
+<h2>&lt;Contact&gt;</h2>
+<div class="grid icons container">
+<a target="blank" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+<a target="blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a target="blank" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+<a target="blank" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+</div>
+</div>
+</section>
+	
+	<script src="js/slideNav.js" type="text/javascript"></script>
+    <script>
+	    window.slide = new SlideNav({
+		changeHash: true    
+	    });
+    </script>
 </body>
