@@ -172,7 +172,7 @@ background-color:white;
 float: right; 
 }
 .sobre img{
-  width: 350px;
+  width: 300px;
   clip-path:  polygon(2% 0, 68% 0, 95% 99%, 31% 100%) 
 }
 .port .grid{
@@ -231,7 +231,7 @@ margin-top:100px;
 }
 .contato a{
   font-size: 8em; 
-  transition: 1s;
+  transition: 0.5s;
 }
 .contato a:hover {
   text-decoration: none;
